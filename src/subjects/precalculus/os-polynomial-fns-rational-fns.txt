@@ -95,7 +95,72 @@ HOW TO: Given a quadratic, find the x-intercepts by rewriting in standard (verte
 3.3 Power Functions and Polynomial Functions
 
 Objectives
-> 
+> Identify power functions.
+> Identify power function end behavior.
+> Identify polynomial functions.
+> Identify a polynomial function's degree and leading coefficient.
+
+Power Function
+  A function that can be in the form f(x) = k * x^p = kx^p, where k and p are real numbers.
+  (k is the coefficient)
+  Note:
+    f(x) = 2^x is an exponential function, NOT a power function,
+    because p is a variable, not a real number.
+  Note:
+    f(x) = nthRoot(x) IS a power function,
+    because squareRoot(x) = x^(1/2), cubeRoot(x) = x^(1/3), etc.
+
+HOW TO: Given a power function, where its exponent is a non-negative integer, identify end behavior.
+  If exponent is even:
+    If coefficient is positive:
+      x --> -Inf, f(x) --> Inf
+      x --> Inf, f(x) --> Inf
+    If coefficient is negative:
+      x --> -Inf, f(x) --> -Inf
+      x --> Inf, f(x) --> -Inf
+  If exponent is odd:
+    If coefficient is positive:
+      x --> -Inf, f(x) --> -Inf
+      x --> Inf, f(x) --> Inf
+    If coefficient is negative:
+      x --> -Inf, f(x) --> Inf
+      x --> Inf, f(x) --> -Inf
+
+Polynomial Function
+  A function that can be written in the form
+  f(x) = a_n*x^n  +  a_(n-1)*x^(n-1)  +  ...  +  a_2*x^2  +  a_1*x  +  a_0
+  where n is a non-negative integer.
+
+  This is the general form.
+
+  Each product a_i*x^i is a term.
+  a_n*x^n is the leading term.
+
+  Each a_i is a real number coefficient.
+  a_n is the leading coefficient, and cannot equal 0.
+
+  n -- the highest exponent (aka "power") of x -- is the degree.
+
+HOW TO: Given a polynomial function, identify the degree and leading coefficient.
+  1. The degree is the highest power (largest exponent).
+  2. The leading coefficient is the coefficient of the term that contains the degree.
+
+turning point: a point at which the fn values change from inc to dec or from dec to inc.
+y-intercept: the point at which the function input is 0.
+x-intercepts: any points at which the function output is 0.
+
+HOW TO: Given a polynomial function, determine its intercepts.
+  1. To determine the y-intercept, set x = 0 and find function output.
+  2. To determine any x-intercepts, solve for inputs that output 0.
+    (Set the function equal to 0 and solve for the x values.)
+
+continuous: no breaks (no gaps)
+smooth: no sharp corners
+
+Intercepts and Turning Points of Polynomials
+  A polynomial of degree n will have
+    n-1 turning points
+    n   x-intercepts (AT MOST)
 
 --------------------------------------------------
 3.4 Graphs of Polynomial Functions
