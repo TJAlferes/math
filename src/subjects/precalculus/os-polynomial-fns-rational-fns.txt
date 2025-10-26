@@ -40,20 +40,56 @@ quadratic standard form (aka vertex form):
 
   axis of symmetry: x = h
 
-  vertex: (h, k) (aka (h, f(h)))
+  vertex: (h, k) (aka (h, f(h)) where h = -b/2a)
 
 HOW TO: Given a quadratic function graph, write the function equation in general form.
-  1. 
-  2.
-  3.
-  4.
-  5.
-  6.
+  1. Identify horizontal shift, h. Identify vertical shift, k.
+  2. Use the values of h and k to write the standard (vertex) form: y = a(x - h)^2 + k.
+  3. Use the values of any point (x, y) -- other than the vertex (h, k) -- for x and y.
+  4. Solve for |a| (the scaling factor).
+  5. If given parabola opens upward, a > 0. If given parabola opens downward, a < 0.
+  6. Expand and simplify to convert to general form: y = ax^2 + bx + c
 
 HOW TO: Given a quadratic in general form, find the parabola's vertex.
   1. Identify a, b, and c.
   2. Find the vertex's x-coord: h = -b/2a
   3. Find the vertex's y-coord: k = f(h) = f(-b/2a)
+
+Domain and Range of a Quadratic
+  domain of any quadratic: (-Inf, Inf) (all real numbers)
+  range of quadratic in general form:
+    h = -b/2a
+    [f(h), Inf) if a > 0
+    (-Inf, f(h)] if a < 0
+  range of quadratic in standard (vertex) form:
+    k = f(h)
+    [k, Inf) if a > 0
+    (-Inf, k] if a < 0
+  Note: these are really saying the same thing, regardless of form:
+    if a > 0, the range is from some finite min up to Infinity
+    if a < 0, the range is from some finite max down to -Infinity
+
+HOW TO: Given a quadratic, find the domain and range.
+  1. domain is (-Inf, Inf) (all real numbers)
+  2. Determine k = f(h) = f(-b/2a)
+     If a > 0, k is the min, range is [k, Inf).
+     If a < 0, k is the max, range is (-Inf, k].
+
+HOW TO: Use a quadratic to find the max revenue.
+  1. Write a quadratic equation for revenue.
+  2. Find the y-value of its vertex.
+
+HOW TO: Given a quadratic, find the y- and x-intercepts.
+  Note: a quadratic has 1 y-intercept.
+  Note: a quadratic may have 0, 1, or 2 x-intercepts.
+  1. To find the y-intercept, set x = 0. That is, evaluate f(0).
+  2. To find the x-intercepts, set y = f(x) = 0.
+
+HOW TO: Given a quadratic, find the x-intercepts by rewriting in standard (vertex) form.
+  1. Find h = -b/2a.
+  2. Find k = f(h). Substitute x = h into the general form.
+  3. Using h and k, rewrite the quadratic in standard (vertex) form.
+  4. To find the x-intercepts, set the standard form y = f(x) = 0.
 
 --------------------------------------------------
 3.3 Power Functions and Polynomial Functions
