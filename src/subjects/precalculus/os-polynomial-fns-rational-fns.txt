@@ -1,0 +1,92 @@
+Polynomial Functions and Rational Functions
+
+Chapter Outline
+3.1 Complex Numbers
+3.2 Quadratic Functions
+3.3 Power Functions and Polynomial Functions
+3.4 Graphs of Polynomial Functions
+3.5 Dividing Polynomials
+3.6 Zeros of Polynomial Functions
+3.7 Inverses and Radical Functions
+3.8 Modeling Using Variation
+
+--------------------------------------------------
+3.1 Complex Numbers
+
+Objectives
+> 
+
+--------------------------------------------------
+3.2 Quadratic Functions
+
+Objectives
+> Recognize parabola characteristics.
+> Understand how a parabola graph is related to its quadratic function.
+> Determine a quadratic function's min or max value.
+> Solve problems involving a quadratic function's min or max value.
+
+quadratic formula: [-b +or- sqrt(b^2 - 4ac)] / 2a
+
+quadratic general form:
+  f(x) = ax^2 + bx + c
+
+  axis of symmetry: x = -b/2a
+  (midpoint between the two x-intercepts (aka the two zeros))
+
+  vertex: (-b/2a, f(-b/2a))
+
+quadratic standard form (aka vertex form):
+  f(x) = a(x - h)^2 + k
+
+  axis of symmetry: x = h
+
+  vertex: (h, k) (aka (h, f(h)))
+
+HOW TO: Given a quadratic function graph, write the function equation in general form.
+  1. 
+  2.
+  3.
+  4.
+  5.
+  6.
+
+HOW TO: Given a quadratic in general form, find the parabola's vertex.
+  1. Identify a, b, and c.
+  2. Find the vertex's x-coord: h = -b/2a
+  3. Find the vertex's y-coord: k = f(h) = f(-b/2a)
+
+--------------------------------------------------
+3.3 Power Functions and Polynomial Functions
+
+Objectives
+> 
+
+--------------------------------------------------
+3.4 Graphs of Polynomial Functions
+
+Objectives
+> 
+
+--------------------------------------------------
+3.5 Dividing Polynomials
+
+Objectives
+> 
+
+--------------------------------------------------
+3.6 Zeros of Polynomial Functions
+
+Objectives
+> 
+
+--------------------------------------------------
+3.7 Inverses and Radical Functions
+
+Objectives
+> 
+
+--------------------------------------------------
+3.8 Modeling Using Variation
+
+Objectives
+> 
