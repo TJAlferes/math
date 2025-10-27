@@ -1,0 +1,137 @@
+Trig Functions
+
+Chapter Outline
+5.1 Angles
+5.2 Unit Circle: sin and cos Functions
+5.3 The Other Trig Functions
+5.4 Right Triangle Trig
+
+--------------------------------------------------
+5.1 Angles
+
+Objectives
+> Draw angles in standard position.
+> Convert between degrees and radians.
+> Find coterminal angles.
+> Find circular arc length.
+> Use linear speed and angular speed to describe motion on a circular path.
+
+--------------------------------------------------
+5.2 Unit Circle: sin and cos Functions
+
+Objectives
+> Identify the domain and range of sin and cos.
+> Evaluate sin and cos for inputs pi/6, pi/4, pi/3 (aka 30deg, 45deg, 60deg).
+> Use reference angles to evaluate trig functions.
+
+Unit Circle
+
+Sine (sin) and Cosine (cos) Functions
+  If t is a real number and (x, y) is a point on the unit circle corresponding to angle t,
+  then cos(t) = x
+  and  sin(t) = y
+
+  Note:
+    If not on unit circle (if radius r is not 1),
+    then r * cos(t) = x
+    and  r * sin(t) = y
+
+HOW TO: Given point P(x, y) on the unit circle corresponding to angle t, find sin and cos.
+  1. sin(t) is the y-coordinate of point P. That is, sin(t) = y.
+  2. cos(t) is the x-coordinate of point P. That is, cos(t) = x.
+
+Pythagorean Identity
+  For any real number t, cos^2(t) + sin^2(t) = 1
+
+HOW TO: Given sin of some angle t, and its quadrant, find cos of t.
+  1. Substitute the known value of sin(t) into the Pythagorean Identity.
+  2. Solve for cos(t).
+  3. Choose the appropriate sign for the x-values in the quadrant where t is located.
+    (x-values because we are concerned with cos here)
+
+ II | I     S | A
+--------    -----
+III | IV    T | C
+
+y and sin are positive in QI and QII
+x and cos are positive in QI and QIV
+
+MEMORIZE:
+angle  0  pi/6       pi/4       pi/3       pi/2
+cos    1  sqrt(3)/2  sqrt(2)/2  1/2        0
+sin    0  1/2        sqrt(2)/2  sqrt(3)/2  1
+
+HOW TO: Given an angle in radians, use a graphing calculator to find cos.
+  1. Set the calculator to radian mode.
+  2. Press COS.
+  3. Enter the radian value of the angle.
+  4. Press ).
+  5. Press ENTER.
+
+Domain and Range of sin and cos
+  domain: (-Inf, Inf) (all real numbers)
+  range: [-1, 1]
+
+HOW TO: Given an angle t between 0 and 2pi, find its reference angle.
+
+  Note: If an angle is less than 0 or greater than 2pi,
+  add or subtract 2pi as many times as needed
+  to find an equivalent (coterminal) angle between 0 and 2pi.
+
+  1. In QI, the ref angle is simply t. (The angle is its own ref angle.)
+  2. In QII & QIII, the ref angle is |pi - t|.
+     (
+        The abs val bars matter. If you don't use the abs val bars, then:
+        In QII, the ref angle is (pi - t).
+        In QII, the ref angle is (t - pi).
+     )
+  3. In QIV, the ref angle is (2pi - t).
+
+  Note: The ref angle is ALWAYS positive.
+  Note: The ref angle is ALWAYS between 0 and pi/2.
+  Note: The ref angle is NOT your final answer! You still need to check the sign!
+
+Using Reference Angles to Find cos and sin
+  The absolute value of the cosine of an angle
+  equals
+  the absolute value of the cosine of its ref angle.
+
+  In short, abs(cos(angle)) = abs(cos(ref)).
+  In symbols, |cos(t)| = |cos(t')|.
+
+  So without the abs, they only differ at most by sign.
+  In other words, they are either equal or opposite.
+  For example, either 1/2 and 1/2 (equal) or -1/2 and 1/2 (opposite).
+
+  Remember: The ref angle is ALWAYS positive.
+  You only determine the sign for your angle, not its ref angle.
+  The sign can be determined by which quadrant the angle's terminal side is in.
+
+  This is also all true for sine.
+
+HOW TO: Given an angle in standard position, find its ref angle, and the cos and sin of the original angle.
+  1. Note which quadrant the angle's terminal side is in.
+  2. Find its ref angle: the angle between the given angle's terminal side and the nearest x-axis.
+  3. Find the cos and sin of the ref angle. That is, find cos(ref) and sin(ref).
+  4. For cos, give it the sign that x-values have in the noted quadrant.
+     For sin, give it the sign that y-values have in the noted quadrant.
+
+
+MEMORIZE: Unit Circle Special Angles
+
+HOW TO: Given a circle radius, and the angle of a point on a circle, find the (x, y) coordinates of the point.
+  1. Find the ref angle.
+  2. Find the cos and sin of the ref angle.
+  3. Determine the appropriate signs for x and y in the given quadrant.
+
+--------------------------------------------------
+5.3 The Other Trig Functions
+
+Objectives
+> 
+
+--------------------------------------------------
+5.4 Right Triangle Trig
+
+Objectives
+> 

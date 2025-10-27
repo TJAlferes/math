@@ -257,7 +257,15 @@ Objectives
 3.6 Zeros of Polynomial Functions
 
 Objectives
-> 
+> Use the Remainder Theorem to evaluate a polynomial.
+> Use the Factor Theorem to solve a polynomial equation.
+> Use the Rational Zero Theorem to find rational zeros.
+> Find zeros of a polynomial function.
+> Use the Linear Factorization Theorem to find polynomials with given zeros.
+> Use Descartes' Rule of Signs.
+> Solve polynomial equations in real-world applications.
+
+
 
 --------------------------------------------------
 3.7 Inverses and Radical Functions
