@@ -225,10 +225,45 @@ HOW TO: Given an angle not in QI, use ref angle to find all six trig functions.
   2. Use ASTC to determine the appropriate signs for each trig function.
 
 Even and Odd Trig Functions
+  even function: f(-x) = f(x)
+   odd function: f(-x) = -f(x)
+  cos and sec are even
+  sin, csc, tan, cot are odd
+  Examples:
+  if sec(t) = 2, then sec(-t) = 2
+  if cot(t) = √3, then cot(-t) = -√3
 
 Alternate Pythagorean
+  1 + tan^2(t) = sec^2(t)
+  cot^2(t) + 1 = csc^2(t)
 
-Calculator
+  Note: To get these from cos^2(t) + sin^2(t) = 1, divide both sides by cos^2(t) or sin^2(t)
+
+Period of a Function
+  The period P of a repeating function f is:
+  the interval width, such that f(x + P) = f(x), for any x.
+
+  period of tan and cot: pi
+  period of sin, cos, sec, csc: 2pi
+
+  Note: the periods just stated (pi and 2pi) are for untransformed (unmodifed) trig functions.
+
+// FIX/FINISH:
+HOW TO: Given an angle measure in radians, use a scientific calculator to find csc.
+  scientific calculator:
+    1. Set to radian mode.
+    2. Enter 1/
+    3. Press SIN 
+    4. Enter the given angle.
+    5. Press )
+    6. Press =
+  graphing calculator:
+    1. Set to radian mode.
+    2. Enter 1/
+    3. Press SIN 
+    4. Enter the given angle.
+    5. Press )
+    6. Press ENTER
 
 --------------------------------------------------
 5.4 Right Triangle Trig

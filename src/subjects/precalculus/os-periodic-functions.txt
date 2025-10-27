@@ -18,7 +18,7 @@ Graphing a function can help us analyze its properties.
 
 Objectives
 > Graph variations (transformations) of y = sin(x) and y = cos(x)
-> Use "phase" shifts of sin curves and cos curves
+> Use "phase shifts" (horizontal translations) of sin curves and cos curves
 
 Characteristics of sin(x) and cos(x) Functions
   * Period is 2pi
@@ -106,11 +106,36 @@ Objectives
 > Analyze the graph of y = tan(x) and y = cot(x) and their variations.
 > Analyze the graph of y = sec(x) and y = csc(x) and their variations.
 
+Special Values of tan
+
+x       -π/2       -π/3   -π/4   -π/6   0   π/6   π/4   π/3   π/2
+_______________________________________________________________________
+tan(x)  undefined  -3     -1     -3/3   0   3/3   1     3     undefined
+
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Tip: Just memorize 0 and positive, since negative is just mirrored.
+  If you don't memorize these, don't panic:
+  Just use tan = sin/cos to derive these.
+  (You MUST memorize the special values for sin and cos!)
+
 Features of y = A * tan(Bx)
+  odd
+  scaling factor: |A|
+  period: π/|B|
+  vertical asymptotes: x = π/2|B| + πk/|B|, integer k
+  domain: (-∞, ∞), for x ≠ π/2|B| + πk/|B|, integer k
+  range: (-∞, ∞)
 
 Features of y = A * tan(Bx - C) + D
 
 HOW TO: Given y = A * tan(Bx), graph one period.
+  1. Identify the scaling factor, |A|.
+  2. Identify B and the period, P = π/|B|.
+  3. Draw vertical asymptotes at x = -P/2 and x = P/2.
+  4. If AB > 0, graph approaches left asymptote at negative values, right at positive.
+     If AB < 0, graph approaches left asymptote at positive values, right at negative.
+  5. Plot points at (-P/4, -A), (0, 0), and (P/4, A).
+  6. Draw the curve through these points.
 
 HOW TO: Given y = A * tan(Bx - C) + D, sketch the graph of one period.
 
