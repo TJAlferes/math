@@ -17,11 +17,58 @@ Objectives
 > Use the sum of rectangular areas to approximate the area under a curve.
 > Use Riemann sums to approximate area.
 
+// TO DO: write these using KaTeX
+
+Properties of Sigma Notation
+  Let a_1, ..., a_2n and b_1, ..., b_n be two sequences and let c be a constant.
+  The following hold, for all positive integers n, and for integers m where 1 ≤ m ≤ n.
+  Σ[c] = nc
+  Σ[ca] = cΣ[a]
+  Σ[a ± b] = Σ[a] ± Σ[b]
+  Σ[i] = 
+
+Sums and Powers of Integers
+  sum of n integers:
+    Σ[i] = n(n + 1) / 2
+         = 1 + 2 + ... + n
+  sum of consecutive integers squared:
+    Σ[i^2] = n(n + 1)(2n + 1) / 6
+           = 1 + 2 + ... + n
+  sum of consecutive integers cubed:
+    Σ[i^3] = n^2(n + 1)^2 / 4
+           = 1 + 2 + ... + n
+
+Partition and Regular Partition
+
+Left-Endpoint Approximation 
+
+Right-Endpoint Approximation
+
+Riemann Sum
+
+area under the curve
+
 --------------------------------------------------
 5.2 The Definite integral
 
 Objectives
-> 
+> State the def integral definition.
+> Explain the terms integrand, limits of integration, and variable of integration.
+> Explain when a function is integrable.
+> Describe the relationship between the def integral and net area.
+> Use geometry and def integral properties to evaluate them.
+> Calculate the avg value of a function.
+
+Definition: Definite Integral
+  If f(x) is a function defined on an interval [a, b], the definite integral from a to b is:
+
+  a∫b f(x) dx = lim_n→∞ Σ[f(x*)Δx]
+
+  , provided the limit exists.
+
+  If the limit exists,
+  f(x) is an integrable function, integrable on [a, b].
+
 
 --------------------------------------------------
 5.3 The Fundamental Theorem of Calculus
