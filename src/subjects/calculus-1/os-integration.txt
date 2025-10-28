@@ -1,0 +1,54 @@
+Integration
+
+Chapter Outline
+5.1 Approximating Areas
+5.2 The Definite integral
+5.3 The Fundamental Theorem of Calculus
+5.4 Integration Formulas and the Net Change Theorem
+5.5 Substitution
+5.6 Integrals Involving Exponential and Logarithmic Functions
+5.7 Integrals Resulting in Inverse Trig Functions
+
+--------------------------------------------------
+5.1 Approximating Areas
+
+Objectives
+> Use sigma (summation) notation, Σ, to calculate sums and powers of integers.
+> Use the sum of rectangular areas to approximate the area under a curve.
+> Use Riemann sums to approximate area.
+
+--------------------------------------------------
+5.2 The Definite integral
+
+Objectives
+> 
+
+--------------------------------------------------
+5.3 The Fundamental Theorem of Calculus
+
+Objectives
+> 
+
+--------------------------------------------------
+5.4 Integration Formulas and the Net Change Theorem
+
+Objectives
+> 
+
+--------------------------------------------------
+5.5 Substitution
+
+Objectives
+> 
+
+--------------------------------------------------
+5.6 Integrals Involving Exponential and Logarithmic Functions
+
+Objectives
+> 
+
+--------------------------------------------------
+5.7 Integrals Resulting in Inverse Trig Functions
+
+Objectives
+> 
