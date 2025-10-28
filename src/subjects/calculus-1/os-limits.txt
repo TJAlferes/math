@@ -1,0 +1,71 @@
+Limits
+
+Chapter Outline
+2.1 Preview of Calculus
+2.2 Limit of a Function
+2.3 Limit Laws
+2.4 Continuity
+2.5 Precise Definition of Limit
+
+--------------------------------------------------
+2.1 Preview of Calculus
+
+Objectives
+> Describe the tangent problem, and how it led to the idea of a derivative.
+> Explain how the idea of a limit is involved in solving the tangent problem.
+> Recognize a tangent to a curve at a point as the limit of secants.
+> Identify instantaneous velocity as the limit of avg velocity over a small time interval.
+> Describe the area problem, and how it was solved by the integral.
+> Explain how the idea of a limit is involved in solving the area problem.
+> Recognize how the ideas of limit, derivative, and integral led to infinite series and multivar calculus.
+
+secant
+  The secant to f(x) through points (a, f(a)) and (x, f(x))
+  is the line passing through these points.
+  Its slope: m_sec = [f(x) - f(a)] / [x - a]
+
+avg velocity
+  Let s(t) be the pos of an obj moving along a coord axis at time t.
+  The avg velocity of the obj over time interval [a, t] where a < t (or [t, a] where t < a):
+  v_avg = [s(t) - s(a)] / [t - a]
+
+  Note: The avg velocity is just the secant segment.
+
+instantaneous velocity
+  For a position function s(t), the inst velocity at time t = a is
+  the value that the avg velocities approach on interval [a, t] (or [t, a])
+  as the values of t approach a, provided such a value exists.
+
+--------------------------------------------------
+2.2 Limit of a Function
+
+Objectives
+> Using correct notation, describe the limit of a function.
+> Use a table to estimate the limit of a function, or to identify when the limit DNE.
+> Use a graph to estimate the limit of a function, or to identify when the limit DNE.
+> Define one-sided limits, and provide examples.
+> Explain the relationship between one-sided and two-sided limits.
+> Using correct notation, describe an infinite limit.
+> Define a vertical asymptote.
+
+lim_x→a f(x) = L
+
+→∞
+
+--------------------------------------------------
+2.3 Limit Laws
+
+Objectives
+> 
+
+--------------------------------------------------
+2.4 Continuity
+
+Objectives
+> 
+
+--------------------------------------------------
+2.5 Precise Definition of Limit
+
+Objectives
+> 

@@ -118,7 +118,16 @@ Tip: Just memorize 0 and positive, since negative is just mirrored.
   Just use tan = sin/cos to derive these.
   (You MUST memorize the special values for sin and cos!)
 
-Features of y = A * tan(Bx)
+It is undefined at its vertical asymptotes.
+Note: When you horizontally transform, its vertical asymptotes move from π/2
+
+Features of y = tan(x)
+  odd
+  period: π
+  vertical asymptotes: x = π/2 + πk, integer k
+  domain: (-∞, ∞), for x ≠ π/2 + πk, integer k
+
+Features of y = Atan(Bx)
   odd
   scaling factor: |A|
   period: π/|B|
@@ -126,9 +135,16 @@ Features of y = A * tan(Bx)
   domain: (-∞, ∞), for x ≠ π/2|B| + πk/|B|, integer k
   range: (-∞, ∞)
 
-Features of y = A * tan(Bx - C) + D
+Features of y = Atan(Bx - C) + D
+  odd
+  scaling factor: |A|
+  period: π/|B|
+  vertical asymptotes: x = C/B + π/2|B| + πk/|B|, integer k
+  domain: (-∞, ∞), for x ≠ C/B + π/2|B| + πk/|B|, integer k
+  range: (-∞, ∞)
+  amplitude: none
 
-HOW TO: Given y = A * tan(Bx), graph one period.
+HOW TO: Given y = Atan(Bx), graph one period.
   1. Identify the scaling factor, |A|.
   2. Identify B and the period, P = π/|B|.
   3. Draw vertical asymptotes at x = -P/2 and x = P/2.
@@ -137,7 +153,12 @@ HOW TO: Given y = A * tan(Bx), graph one period.
   5. Plot points at (-P/4, -A), (0, 0), and (P/4, A).
   6. Draw the curve through these points.
 
-HOW TO: Given y = A * tan(Bx - C) + D, sketch the graph of one period.
+HOW TO: Given y = Atan(Bx - C) + D, sketch the graph of one period.
+  1. Identify the scaling factor, |A|.
+  2. Identify B and the period, P = π/|B|.
+  3. Identify C and the phase shift, C/B.
+  4. Draw y = Atan(Bx) shifted right by C/B and shifted up by D.
+  5. Draw vertical asymptotes at x = 
 
 HOW TO: Given the graph of a tan function, identify horizontal and vertical stretches.
 
