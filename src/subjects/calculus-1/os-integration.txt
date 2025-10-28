@@ -5,7 +5,7 @@ Chapter Outline
 5.2 The Definite integral
 5.3 The Fundamental Theorem of Calculus
 5.4 Integration Formulas and the Net Change Theorem
-5.5 Substitution
+5.5 Substitution ("u-sub")
 5.6 Integrals Involving Exponential and Logarithmic Functions
 5.7 Integrals Resulting in Inverse Trig Functions
 
@@ -69,21 +69,94 @@ Definition: Definite Integral
   If the limit exists,
   f(x) is an integrable function, integrable on [a, b].
 
+Theorem: Continuous Functions Are Integrable
+  If f(x) is continuous on [a, b], then f is integrable on [a, b].
+
+Definitions: Net Signed Area and Total Area
+  Let f(x) be an integrable function defined on an interval [a, b].
+  Let A_1 be the area, above the x-axis, between f(x) and the x-axis.
+  Let A_2 be the area, below the x-axis, between f(x) and the x-axis.
+
+  net signed area: a∫b f(x) dx = A_1 - A_2
+                               = area above - area below
+
+  total area: a∫b |f(x)| dx = A_1 + A_2
+                            = area above + area below
+
+Properties of the Definite Integral
+  a∫a f(x) dx = 0
+
+  a∫b cf(x) dx = c a∫b f(x) dx
+
+  a∫b [f(x) ± g(x)] dx = a∫b f(x) dx ± a∫b g(x) dx
+
+  b∫a f(x) dx = - a∫b f(x) dx
+
+  a∫c f(x) dx = a∫b f(x) dx + b∫c f(x) dx
+
+Comparison Theorem
+  i. If f(x)
+
+  ii. If f(x)
+
+  iii. If m and M are constants such that m
+
+Definition: Average Value of a Function
+  Let f(x) be continuous over [a, b]. Then the average value of the function f(x) on [a, b]:
+
+  f_avg = a∫b f(x) dx / (b - a)
 
 --------------------------------------------------
 5.3 The Fundamental Theorem of Calculus
 
 Objectives
-> 
+> Describe the meaning of the MVT for Integral.
+> State the meaning of the FTC Part 1.
+> Use the FTC Part 1 to evaluate derivatives of integrals.
+> State the meaning of the FTC Part 2.
+> Use the FTC Part 2 to evaluate def integrals.
+> Explain the relationship between differentiation and integration.
 
 --------------------------------------------------
 5.4 Integration Formulas and the Net Change Theorem
 
 Objectives
-> 
+> Apply the basic integration formulas.
+> Explain the significance of the Net Change Theorem.
+> Use the Net Change Theorem to solve applied problems.
+> Apply the integrals of even and odd functions.
+
+The Net Change Theorem interprets the integral as a *rate of change*. It says:
+  When a quantity changes,
+  the new value
+  equals
+  the old value
+  plus
+  the integral of the rate of change of that quantity
+
+  The formula can be stated two ways (the second way is simply the def integral):
+
+  F(b) = F(a) + a∫b F'(x) dx
+
+  a∫b F'(x) dx = F(b) - F(a)
+
+  So when F(a) changes to F(b),
+  the new value                                         F(b)
+  equals                                                =
+  the old value                                         F(a)
+  plus                                                  +
+  the integral of the rate of change of that quantity   a∫b F'(x) dx
+
+Integrals of Odd and Even Functions
+  For continuous odd functions,
+    -a∫a f(x) dx = 0
+  For continuous even functions,
+    -a∫a f(x) dx = 2 0∫a f(x) dx
+
+  Note: This is only when the limits of integration are from -a to a.
 
 --------------------------------------------------
-5.5 Substitution
+5.5 Substitution ("u-sub")
 
 Objectives
 > 
