@@ -117,6 +117,26 @@ Objectives
 > Use the FTC Part 2 to evaluate def integrals.
 > Explain the relationship between differentiation and integration.
 
+Note: "over [a, b]" usually means "for all x in [a, b]"
+
+FTC Part 1
+  If f is continuous over [a, b]
+  and
+  F(x) = a∫x f(t) dt, 
+  then
+  F'(x) = f(x)  over (a, b)
+
+  Note: Here, F(x) is a function of x
+    because the upper limit of integration is x,
+    and a def integral returns one finite value.
+
+FTC Part 2
+  If f is continuous over [a, b]
+  and
+  F(x) is any antiderivative of f(x),
+  then
+  a∫b f(x) dx = F(b) - F(a)
+
 --------------------------------------------------
 5.4 Integration Formulas and the Net Change Theorem
 
@@ -151,7 +171,7 @@ Integrals of Odd and Even Functions
   For continuous odd functions,
     -a∫a f(x) dx = 0
   For continuous even functions,
-    -a∫a f(x) dx = 2 0∫a f(x) dx
+    -a∫a f(x) dx = 2 0∫a f(x) dx   = 2 -a∫0 f(x) dx
 
   Note: This is only when the limits of integration are from -a to a.
 

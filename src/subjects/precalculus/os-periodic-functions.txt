@@ -5,7 +5,7 @@ Chapter Outline
 6.2 Graphs of tan, cot, sec, and csc
 6.3 Inverse trig functions
 
-y = A * fn(Bx - C) + D  (where fn is any of the six trig functions)
+y = Afn(Bx - C) + D  (where fn is any of the six trig functions)
 
 sin and cos are "sinusoidal" functions
 
@@ -21,17 +21,17 @@ Objectives
 > Use "phase shifts" (horizontal translations) of sin curves and cos curves
 
 Characteristics of sin(x) and cos(x) Functions
-  * Period is 2pi
+  * Period is 2π
   * Domain is (-Inf, Inf); Range is [-1, 1]
   * y = sin(x) is an odd function (symmetric about origin)
   * y = cos(x) is an even function (symmetric about y-axis)
 
 Period of Sinusoidal Functions
-  Let C = 0 and D = 0 so the general form equations are y = A * sin(Bx) and y = A * cos(Bx).
-  Then the period is 2pi / |B|
+  Let C = 0 and D = 0 so the general form equations are y = Asin(Bx) and y = Acos(Bx).
+  Then the period is 2π / |B|
 
 Amplitude of Sinusoidal Functions
-  Let C = 0 and D = 0 so the general form equations are y = A * sin(Bx) and y = A * cos(Bx).
+  Let C = 0 and D = 0 so the general form equations are y = Asin(Bx) and y = Acos(Bx).
   Then the amplitude (vertical height from midline) is |A| = |max - min| / 2
   Note:
     A is vertical scaling (A ≠ 0)
@@ -40,7 +40,7 @@ Amplitude of Sinusoidal Functions
   Note: -A is vertical reflection
 
 Variations (Modifications, Transformations) of sin and cos Functions
-  Given y = A * sin(Bx - C) + D and y = A * cos(Bx - C) + D,
+  Given y = Asin(Bx - C) + D and y = Acos(Bx - C) + D,
   The vertical shift is D
   The phase shift is C/B
     Note: phase shift is just horizontal shift (same thing)
@@ -77,25 +77,25 @@ Variations (Modifications, Transformations) of sin and cos Functions
     horizontal compress if B < -1 or B > 1
   Note: -B is a horizontal reflection (no effect for even functions like cos though)
 
-HOW TO: Given y = A * sin(Bx - C) + D, identify the midline, amplitude, period, and phase shift.
+HOW TO: Given y = Asin(Bx - C) + D, identify the midline, amplitude, period, and phase shift.
   midline: D
   amplitude: |A|
-  period: 2pi / |B|
+  period: 2π / |B|
   phase shift: C / B
 
-HOW TO: Given y = A * sin(Bx), sketch its graph.
+HOW TO: Given y = Asin(Bx), sketch its graph.
   1. amplitude: |A|
-  2. period: 2pi / |B|
+  2. period: 2π / |B|
   3. Start at origin, move right  (increasing if A > 0, decreasing if A < 0)
-  4. At x = pi / 2|B|, y = A      (a local max if A > 0, local min if A < 0)
-  5. At x = pi / |B|, y = 0
-  6. At x = 3pi / 2|B|, y = -A    (a local min if A > 0, local max if A < 0)
-  7. At x = 2pi / |B|, y = 0
+  4. At x = π / 2|B|, y = A      (a local max if A > 0, local min if A < 0)
+  5. At x = π / |B|, y = 0
+  6. At x = 3π / 2|B|, y = -A    (a local min if A > 0, local max if A < 0)
+  7. At x = 2π / |B|, y = 0
 
 HOW TO: Given a sinusoidal function with a phase shift and vertical shift, sketch its graph.
-  1. Express in general form: y = A * fn(Bx - C) + D
+  1. Express in general form: y = Afn(Bx - C) + D
   2. amplitude: |A|
-  3. period: 2pi / |B|
+  3. period: 2π / |B|
   4. phase shift: C / B
   5. Draw graph, shifted right or left by C/B, shifted up or down by D
 
@@ -161,36 +161,39 @@ HOW TO: Given y = Atan(Bx - C) + D, sketch the graph of one period.
   5. Draw vertical asymptotes at x = 
 
 HOW TO: Given the graph of a tan function, identify horizontal and vertical stretches.
+  1. Find the period (spacing between vertical asymptotes or between x-intercepts)
+  2. Write y = Atan(πx/P).
+  3. Pick a convenient point (x, y) on the graph, use it to find A.
+-
+
+
+Features of y = Acot(Bx)
+
+Features of y = Acot(Bx - C) + D
+
+HOW TO: Given a modified cot function y = Acot(Bx), graph one period.
+
+HOW TO: Given a modified cot function y = Acot(Bx - C) + D, graph one period.
 
 -
 
-Features of y = A * cot(Bx)
+Features of y = Asec(Bx)
 
-Features of y = A * cot(Bx - C) + D
+Features of y = Asec(Bx - C) + D
 
-HOW TO: Given a modified cot function y = A * cot(Bx), graph one period.
+HOW TO: Given y = Asec(Bx), graph one period.
 
-HOW TO: Given a modified cot function y = A * cot(Bx - C) + D, graph one period.
-
--
-
-Features of y = A * sec(Bx)
-
-Features of y = A * sec(Bx - C) + D
-
-HOW TO: Given y = A * sec(Bx), graph one period.
-
-HOW TO: Given y = A * sec(Bx - C) + D, graph one period.
+HOW TO: Given y = Asec(Bx - C) + D, graph one period.
 
 -
 
-Features of y = A * csc(Bx)
+Features of y = Acsc(Bx)
 
-Features of y = A * csc(Bx - C) + D
+Features of y = Acsc(Bx - C) + D
 
-HOW TO: Given y = A * csc(Bx), graph one period.
+HOW TO: Given y = Acsc(Bx), graph one period.
 
-HOW TO: Given y = A * csc(Bx - C) + D, graph one period.
+HOW TO: Given y = Acsc(Bx - C) + D, graph one period.
 
 --------------------------------------------------
 6.3 Inverse trig functions
