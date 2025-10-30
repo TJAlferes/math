@@ -1,10 +1,11 @@
-//import React from 'react';
+import { IntegralDefinition } from './subjects/calculus-1/os-integration';
 import Graph from './Graph';
 import './App.css';
 
 function App() {
   return (
     <>
+      <IntegralDefinition />
       <Graph
         width={500}
         height={300}

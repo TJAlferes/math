@@ -117,6 +117,13 @@ Objectives
 > Use the FTC Part 2 to evaluate def integrals.
 > Explain the relationship between differentiation and integration.
 
+The Mean Value Theorem (MVT) for Integrals
+  If f(x) is continuous over [a, b],
+  then there is at least one point c in [a, b] such that
+  f(c) = a∫b f(x) dx / (b - a)
+  or
+  a∫b f(x) dx = f(c)(b - a)
+
 Note: "over [a, b]" usually means "for all x in [a, b]"
 
 FTC Part 1
