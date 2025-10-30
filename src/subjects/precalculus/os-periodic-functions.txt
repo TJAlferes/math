@@ -164,22 +164,66 @@ HOW TO: Given the graph of a tan function, identify horizontal and vertical stre
   1. Find the period (spacing between vertical asymptotes or between x-intercepts)
   2. Write y = Atan(πx/P).
   3. Pick a convenient point (x, y) on the graph, use it to find A.
+
 -
 
-
 Features of y = Acot(Bx)
+  odd
+  scaling factor: |A|
+  period: π/|B|
+  vertical asymptotes: x = πk/|B|, integer k
+  domain: (-∞, ∞), for x ≠ πk/|B|, integer k
+  range: (-∞, ∞)
+  amplitude: none
 
 Features of y = Acot(Bx - C) + D
+  odd
+  scaling factor: |A|
+  period: π/|B|
+  vertical asymptotes: x = C/B + πk/|B|, integer k
+  domain: (-∞, ∞), for x ≠ C/B + πk/|B|, integer k
+  range: (-∞, ∞)
+  amplitude: none
 
-HOW TO: Given a modified cot function y = Acot(Bx), graph one period.
+HOW TO: Given y = Acot(Bx), graph one period.
+  1. Identify the scaling factor, |A|.
+  2. Identify the period, P = π/|B|.
+  3. Draw y = Atan(Bx).
+  4. Plot any two points.
+  5. Use the reciprocal relationship between tan and cot to draw y = Acot(Bx).
+  6. Draw vertical asymptotes.
 
-HOW TO: Given a modified cot function y = Acot(Bx - C) + D, graph one period.
+  /*
+  3. Draw vertical asymptotes at x = -P/2 and x = P/2.
+  4. If AB > 0, graph approaches left asymptote at negative values, right at positive.
+     If AB < 0, graph approaches left asymptote at positive values, right at negative.
+  5. Plot points at (-P/4, -A), (0, 0), and (P/4, A).
+  6. Draw the curve through these points.
+  */
+
+HOW TO: Given y = Acot(Bx - C) + D, graph one period.
+  1. 1. Identify the scaling factor, |A|.
+  2. Identify the period, P = π/|B|.
+  3. Identify the phase shift, C/B.
+  4. Draw y = Atan(Bx) shifted right by C/B and shifted up by D.
+  5. Draw vertical asymptotes at x = C/B + πk/|B|, integer k.
+  6. Plot three points, draw a curve through those points.
 
 -
 
 Features of y = Asec(Bx)
+  even
+  scaling factor: |A|
+  period: 2π/|B|
+  vertical asymptotes: x = πk/2|B|, odd integer k
+  domain: (-∞, ∞), for x ≠ πk/2|B|, odd integer k
+  range: (-∞, -|A|] U [|A|, ∞)
+  amplitude: none
 
 Features of y = Asec(Bx - C) + D
+  scaling factor: |A|
+  period: 2π/|B|
+  amplitude: none
 
 HOW TO: Given y = Asec(Bx), graph one period.
 
@@ -188,8 +232,16 @@ HOW TO: Given y = Asec(Bx - C) + D, graph one period.
 -
 
 Features of y = Acsc(Bx)
+  odd
+  scaling factor: |A|
+  period: 2π/|B|
+  vertical asymptotes: x = πk/|B|, integer k
+  domain: (-∞, ∞), for x ≠ πk/|B|, integer k
+  range: (-∞, -|A|] U [|A|, ∞)
+  amplitude: none
 
 Features of y = Acsc(Bx - C) + D
+  amplitude: none
 
 HOW TO: Given y = Acsc(Bx), graph one period.
 
