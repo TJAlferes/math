@@ -1,5 +1,5 @@
 import { InlineMath, BlockMath } from 'react-katex';
-import "katex/dist/katex.min.css";
+//import "katex/dist/katex.min.css";
 
 export function IntegralDefinition() {
   const formula = String.raw`\int_a^b f(x)\,dx = \lim_{n \to \infty} \sum_{i=1}^{n} f(x_i^*)\,\Delta x`;

@@ -1,3 +1,5 @@
+import "katex/dist/katex.min.css";
+
 import { IntegralDefinition } from './subjects/calculus-1/os-integration';
 import Graph from './Graph';
 import './App.css';

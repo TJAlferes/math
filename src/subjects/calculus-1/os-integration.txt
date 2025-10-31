@@ -186,7 +186,54 @@ Integrals of Odd and Even Functions
 5.5 Substitution ("u-sub")
 
 Objectives
-> 
+> Use substitution to evaluate indefinite integrals.
+> Use substitution to evaluate definite integrals.
+
+Note: use u-sub when the integrand is the result of a chain-rule derivative.
+  Ex: ∫ (x^2 - 3)^3 * 2x dx
+            f(x) = x^3
+            g(x) = x^2 - 3
+           g'(x) = 2x
+    f[g(x)]g'(x) = (x^2 - 3)^3 * 2x
+
+Substitution with indefinite Integrals
+  Let u = g(x) where g'(x) is continuous over an interval.
+  Let f(x) be continuous over the corresponding range of g.
+  Let F(x) be an antiderivative of f(x).
+  Then,
+  ∫ f[g(x)]g'(x) dx = ∫ f(u) du
+                    = F(u) + C
+                    = F(g(x)) + C
+
+  Ex: ∫ (x^3 - 3)^2 * 3x^2 dx
+  u = x^3 - 3, du = 3x^2 dx
+  ∫ u^2 du
+  1/3 * u^3 + C
+  1/3 * (x^3 - 3)^3 + C
+
+STRATEGY: Integration by Substitution (u-sub)
+  1. Look carefully at the integrand and
+    select g(x) in the integrand such that g'(x) is also in the integrand.
+  2. Substitution into the integral: u for g(x) and du for g'(x).
+  3. Evaluate the integral with respect to u (or go back and select differently).
+  4. Write the result in terms of x and the expression g(x).
+
+Substitution with Definite Integrals
+  Let u = g(x) and let g' be continuous over an interval [a, b].
+  Let f be continuous over the range of u = g(x).
+  Then,
+  a∫b f[g(x)]g'(x) dx = g(a)∫g(b) f(u) du
+
+  Ex: 0∫1 (2x^3 + 1)^5 * x^2 dx
+  u = 2x^3 + 1, du = 6x^2 dx, 1/6 du = x^2 dx
+  Adjust limits of integration:
+    When x = 0, u = 2(0)^3 + 1 = 1
+    When x = 1, u = 2(1)^3 + 1 = 3
+  1/6 1∫3 u^5 du
+  1/6 (1/6 u^6) 1|3
+  1/36 [3^6 - 1^6]
+  1/36 [729 - 1]
+  728/36 = 364/18 = 182/9
 
 --------------------------------------------------
 5.6 Integrals Involving Exponential and Logarithmic Functions
