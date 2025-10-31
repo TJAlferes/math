@@ -1,0 +1,146 @@
+Integration
+
+Chapter Outline
+3.1 Defining the Derivative
+3.2 The Derivative as a Function
+3.3 Differentiation Rules
+3.4 Derivatives as Rates of Change
+3.5 Derivatives of Trig Functions
+3.6 The Chain Rules
+3.7 Derivatives of Inverse Functions
+3.8 Implicit Differentiation
+3.9 Derivatives of Exponential and Logarithmic Functions
+
+--------------------------------------------------
+3.1 Defining the Derivative
+
+Objectives
+> Recognize the meaning of the tangent to a curve at a point.
+> Calculate the slope of a tangent line.
+> Identify the derivative as the limit of a difference quotient.
+> Calculate the derivative of a given function at a point.
+> Describe the velocity as a rate of change.
+> Explain the difference between avg velocity and inst velocity.
+> Estimate the derivative from a table of values.
+
+DEFINITION: Difference Quotient
+  Let f be a function defined on an interval I containing a.
+
+  If x =/= a is in I,
+  then
+    Q = [f(x) - f(a)] / [x - a]
+    is a difference quotient.
+
+  Also, if h =/= 0 is chosen so that a + h is in I,
+  then
+    Q = [f(a + h) - f(a)] / h
+    is a difference quotient with increment h.
+
+DEFINITION: Tangent Line
+  Let f(x) be a function defined in an open interval containing a.
+
+  The tangent line to f(x) at a is the line
+  passing through the point (a, f(a))
+  having slope m_tan = lim_x->a [f(x) - f(a)] / [x - a]  provided this limit exists.
+
+  Equivalently, the tangent line to f(x) at a is the line
+  passing through the point (a, f(a))
+  having slope m_tan = lim_h->0 [f(a + h) - f(a)] / h  provided this limit exists.
+
+Note: The slope of the tangent line *is* the derivative. That's all a derivative is.
+
+DEFINITION: Derivative
+  Let f(x) be a function defined in an open interval containing a.
+
+  The derivative of f(x) at a, denoted f'(a) is
+    f'(a) = lim_x->a [f(x) - f(a)] / [x - a]  provided this limit exists.
+
+  Alternatively, the derivative of f(x) at a is
+    f'(a) = lim_h->0 [f(a + h) - f(a)] / h  provided this limit exists.
+
+DEFINITION: Instantaneous Rate of Change
+  The inst rate of change of a function f(x) at a value a *is* its derivative f'(a).
+
+--------------------------------------------------
+3.2 The Derivative as a Function
+Objectives
+> Define the derivative function of a given function.
+> Graph a derivative function from the graph of the given function.
+> State the connection between derivatives and continuity.
+> Describe three conditions when a function does not have a derivative.
+> Explain the meaning of a higher-order derivative.
+
+DEFINITION: Derivative Function
+  Let f be a function.
+
+  The derivative function, denoted f', is the function
+  whose domain consists of those values of x
+  such that the following limit exists:
+    f'(x) = lim_h->0 [f(x + h) - f(x)] / h 
+
+  f(x) is differentiable at a if f'(a) exists.
+  f is differentiable on S if it is differentiable at every point in an open set S.
+  A differentiable function is one in which f'(x) exists on its domain.
+
+Theorem: Differentiablity Implies Continuity
+  Let f(x) be a function and a be in its domain.
+  If f(x) is differentiable at a,
+  then f is continuous at a.
+
+Note:
+  If a function is not continuous, it is not differentiable.
+  If a function is continuous, it may or may not be differentiable.
+
+IMPORTANT: 3 cases when a derivative does not exists (not differentiable at that point):
+  1 discontinuity (not continuous)
+  2 sharp turn (not smooth)
+  3 vertical tangent line (slope undefined)
+
+Note: piecewise functions do not necessarily have discontinuities.
+
+--------------------------------------------------
+3.3 Differentiation Rules
+Objectives
+> State the constant, constant multiple, and power rules.
+> Apply the sum and difference rules to combine derivatives.
+> Use the product rule for finding the derivative of a product of functions.
+> Use the quotient rule for finding the derivative of a quotient of functions.
+> Extend the power rule to functions with negative exponents.
+> Combine the differentiation rules to find the derivative of a polynomial or rational function.
+
+
+
+--------------------------------------------------
+3.4 Derivatives as Rates of Change
+Objectives
+> 
+
+--------------------------------------------------
+3.5 Derivatives of Trig Functions
+
+Objectives
+> 
+
+--------------------------------------------------
+3.6 The Chain Rules
+
+Objectives
+> 
+
+--------------------------------------------------
+3.7 Derivatives of Inverse Functions
+
+Objectives
+> 
+
+--------------------------------------------------
+3.8 Implicit Differentiation
+
+Objectives
+> 
+
+--------------------------------------------------
+3.9 Derivatives of Exponential and Logarithmic Functions
+
+Objectives
+> 
