@@ -323,10 +323,57 @@ HOW TO: Given a polynomial function f(x), use the Rational Zero Theorem to find 
   Now plug in all 8 of those into f(x).
 
 HOW TO: Given a polynomial function f, use synthetic division to find its zeros.
-  1 
-  2 
-  3 
-  4 
+  1 Use the Rational Zero Theorem to list all possible rational zeros of f.
+  2 Use synthetic division to evaluate a possible zero.
+    If remainder = 0, the candidate is a zero.
+    Else discard the candidate.
+  3 Repeat Step 2 using the quotient found. If possible, continue until a quadratic quotient.
+  4 Find the zeros of the quadratic by factoring or by the quadratic formula.
+
+  Note: In Step 3, the idea is to use synthetic division,
+  as many times as possible and as needed,
+  to reduce the original given polynomial into a quadratic.
+  To do this, just make sure after you synthetically divide,
+  that your next synthetic division is of its quotient, not of the same dividend.
+
+The Fundamental Theorem of Algebra (FTA)
+  If f(x) is a polynomial of degree n > 0,
+  then f(x) has at least one complex zero.
+
+  Note: This does not mean the zero must be a strictly complex number:
+  The zero can, for example, be a rational number, since rational numbers are real numbers,
+  and real numbers can be written as complex numbers (4 as 4 + 0i).
+
+  IMPORTANT: We can use the FTA to argue that:
+    If f(x) is a polynomial of degree n > 0 and a is a real number ≠ 0,
+    then f(x) has *exactly* n linear factors:
+
+    f(x) = a(x - c_1)(x - c_2)...(x - c_n)  where c_i are (not strictly) complex numbers
+
+    So f(x) has *exactly* n roots (aka zeros) including any multiplicities.
+
+    Note: sometimes people mistakenly refer to this as the FTA.
+
+    Ex: f(x) = 3x^3 + 9x^2 + x + 3
+    The degree is 3, so there are exactly 3 linear factors.
+
+    Verification: The possible rational zeros are ±1/3, ±1, ±3
+
+    Using synthetic division, starting with -3:
+    -3 | 3  9  1  3
+       | 
+       ------------
+         3  0  1  0
+    The remainder is 0, so -3 is a zero, so (x + 3) is a factor:
+    So f(x) = 3x^3 + 9x^2 + x + 3
+            = (x + 3)(3x^2 + 1)
+    
+    Setting 3x^2 + 1 equal to 0,
+    3x^2 = -1
+    x^2 = -1/3
+    x = ±√(-1/3) = ±√(-1)/√(3) = ±i/√(3) = ±i√(3)/3
+
+
 
 --------------------------------------------------
 3.7 Inverses and Radical Functions
