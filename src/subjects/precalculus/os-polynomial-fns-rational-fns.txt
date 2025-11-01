@@ -265,7 +265,68 @@ Objectives
 > Use Descartes' Rule of Signs.
 > Solve polynomial equations in real-world applications.
 
+The Remainder Theorem
+  If a polynomial f(x) is divided by (x - k), then the remainder is f(k).
 
+HOW TO: Given a polynomial function f, evaluate f(x) at x = k using the Remainder Theorem
+  1 Synthetically divide the polynomial by (x - k).
+  2 The remainder is f(k).
+
+  Ex: f(x) = 6x^4 - x^3 - 15x^2 + 2x - 7 at x = 2
+  Instead of plugging in k to evaluate f(k), you can use the remainder of f(x) / (x - k).
+  Here k = 2.
+  2 | 6 -1 -15  2 -7
+    |   12  22 14 32
+    ----------------
+      6 11   7 16 25
+  From our synthetic division we see the remainder is 25, so f(2) = 25.
+
+The Factor Theorem
+  k is a zero of f(x) iff (x - k) is a factor of f(x).
+
+HOW TO: Given a factor and a 3rd degree polynomial, use the Factor Theorem to factor the polynomial.
+  1 Synthetically divide the polynomial by (x - k).
+  2 Confirm that the remainder is 0.
+  3 Write the polynomial as the product of (x - k) and the quadratic quotient.
+  4 If possible, factor the quadratic.
+  5 Write the polynomial as the product of factors.
+
+The Rational Zero Theorem
+  If the polynomial f(x) has integer coefficients,
+  then every rational zero of f(x) has the form p/q
+    where p is a factor of the constant term
+    and q is a factor of the leading coefficient.
+  
+  When the leading coefficient is 1,
+  the possible rational zeros are just the factors of the constant term.
+
+HOW TO: Given a polynomial function f(x), use the Rational Zero Theorem to find rational zeros.
+  1 Determine all factors of the constant term and all factors of the leading coefficient.
+  2 Determine all possible values of p/q,
+      where p is a factor of the constant term
+      and q is a factor of the leading coefficient.
+      Be sure to include both positive and negative candidates.
+  3 Determine which possible zeros are actual zeros by evaluating each case of f(p/q).
+
+  Ex: f(x) = 2x^4 = 5x^3 + x^2 - 4
+  Here
+  all factors of -4: ±1, ±2, ±4
+  all factors of 2: ±1, ±2
+
+  If any of the four real zeros are rational zeros,
+  then they will be some combo of (factor_of_p / factor_of_q) = p / q.
+
+  p/q = ±1/1, ±1/2, ±2/1, ±2/2, ±4/1, ±4/2
+  We can simplify 1/1 = 1, and cancel out 2/2 = 1 and 4/2 = 2:
+  p/q = ±1, ±1/2, ±2, ±4
+
+  Now plug in all 8 of those into f(x).
+
+HOW TO: Given a polynomial function f, use synthetic division to find its zeros.
+  1 
+  2 
+  3 
+  4 
 
 --------------------------------------------------
 3.7 Inverses and Radical Functions
