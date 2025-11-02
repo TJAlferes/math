@@ -7,8 +7,9 @@ Chapter Outline
 3.4 Graphs of Polynomial Functions
 3.5 Dividing Polynomials
 3.6 Zeros of Polynomial Functions
-3.7 Inverses and Radical Functions
-3.8 Modeling Using Variation
+3.7 Rational Functions
+3.8 Inverses and Radical Functions
+3.9 Modeling Using Variation
 
 --------------------------------------------------
 3.1 Complex Numbers
@@ -344,6 +345,9 @@ The Fundamental Theorem of Algebra (FTA)
   The zero can, for example, be a rational number, since rational numbers are real numbers,
   and real numbers can be written as complex numbers (4 as 4 + 0i).
 
+  Note: Does every polynomial have at least one imaginary zero (root)?
+  No. A complex number is not necessarily imaginary. Real numbers are also complex numbers.
+
   IMPORTANT: We can use the FTA to argue that:
     If f(x) is a polynomial of degree n > 0 and a is a real number ≠ 0,
     then f(x) has *exactly* n linear factors:
@@ -373,16 +377,55 @@ The Fundamental Theorem of Algebra (FTA)
     x^2 = -1/3
     x = ±√(-1/3) = ±√(-1)/√(3) = ±i/√(3) = ±i√(3)/3
 
+Linear Factorization Theorem
+  A polynomial function will have the same number of factors as its degree.
+  And each factor will be in the form (x - c) where c is a (not strictly) complex number.
 
+Complex Conjugate Theorem
+  According to the Linear Factorization Theorem,
+  a polynomial function will have the same number of factors as its degree,
+  and each factor will be in the form (x - c) where c is a (not strictly) complex number.
+
+  If the polynomial function has real coefficients and a complex zero in the form a + bi,
+  then the complex conjugate of that zero, a - bi, is also a zero.
+  
+  Ex: if 2 + 3i were a zero of a polynomial with real coefficients,
+  then 2 - 3i must also be a zero of that polynomial.
+
+Descartes' Rule of Signs
+  Let f(x) be a polynomial function with real coefficients.
+
+  Let P be the number of sign changes of f(x).
+  The number of positive real zeros (roots)
+  is either P or < P by an even integer.
+
+  Let N be the number of sign changes of f(-x).
+  The number of negative real zeros (roots)
+  is either N or < N by an even integer.
+  
+  Note: "the number of sign changes" means
+  the number of times the + or - between each term of the polynomial changes.
+  Ex: x^3 + x^2 - x + 1 has 2 sign changes.
 
 --------------------------------------------------
-3.7 Inverses and Radical Functions
+3.7 Rational Functions
+
+Objectives
+> Use arrow notation.
+> Solve applied problems involving rational functions.
+> Find domains of rational functions.
+> Identify vertical asymptotes.
+> Identify horizontal asymptotes.
+> Graph rational functions.
+
+--------------------------------------------------
+3.8 Inverses and Radical Functions
 
 Objectives
 > 
 
 --------------------------------------------------
-3.8 Modeling Using Variation
+3.9 Modeling Using Variation
 
 Objectives
 > 
