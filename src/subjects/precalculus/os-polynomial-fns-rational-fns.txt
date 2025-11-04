@@ -418,6 +418,59 @@ Objectives
 > Identify horizontal asymptotes.
 > Graph rational functions.
 
+Vertical Asymptote
+  A vertical line x = a
+  where the graph approaches ±∞
+  as the input approaches a from the left or right.
+
+  So as x approaches a from the left or right,
+  f(x) approaches ±∞.
+
+End Behavior of f(x) = 1/x
+  As x approaches ∞ (from the left, necessarily),
+  f(x) approaches 0.
+  As x approaches -∞ (from the right, necessarily),
+  f(x) approaches 0.
+  This behavior creates a horizontal asymptote at y = 0.
+
+Horizontal Asymptote
+  A horizontal line y = b
+  where the graph approaches b
+  as the inputs increase or decrease without bound
+  (as the inputs approach ±∞).
+
+  So as x approaches ±∞,
+  f(x) approaches b.
+
+Rational Function
+  A function that can be written as the quotient of two polynomial functions.
+  f(x) = P(x)/Q(x)  where Q(x) ≠ 0.
+
+Domain of a Rational Function
+  All real numbers except those that cause the denominator to equal 0
+  (all x except vertical asymptotes).
+
+HOW TO: Given a rational function, find the domain.
+  1 Set denominator equal to 0.
+  2 Solve to find the x-values that cause the denominator to equal zero.
+  3 The domain is all real numbers except those values found in Step 2.
+
+  Ex: (x + 3) / (x^2 - 9)
+  x^2 - 9 = 0
+  x^2 = 9
+  x = ±3
+  So the denominator equals 0 when x is 3 or -3.
+  So the domain is all real numbers except x = ±3.
+
+HOW TO: Given a rational function, identify any vertical asymptotes.
+  1
+  2
+  3
+  4
+  5
+
+
+
 --------------------------------------------------
 3.8 Inverses and Radical Functions
 

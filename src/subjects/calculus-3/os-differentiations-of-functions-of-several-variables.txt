@@ -1,0 +1,75 @@
+Chapter 4 Differentiation of Functions of Several Variables (Scalar Fields)
+
+Chapter Outline
+4.1 Functions of Several Variables
+4.2 Limits and Continuity
+4.3 Partial Derivatives
+4.4 Tangent Planes and Linear Approximations
+4.5 The Chain Rule
+4.6 Directional Derivatives and the Gradient
+4.7 Maxima/Minima Problems
+4.8 Lagrange Multipliers
+
+--------------------------------------------------
+4.1 Functions of Several Variables (Scalar Fields) (f: R^n --> R)
+
+Objectives
+> Recognize a function of two variables and identify its domain and range.
+> Sketch a graph of a function of two variables.
+> Sketch several traces or level curves of a function of two variables.
+> Recognize a function of three or more variables and identify its level surfaces.
+
+DEFINITION: Function of Two Variables (f: R^2 --> R)
+  A function of two variables z = f(x, y)
+  maps each ordered pair (x, y) in a subset D of the real plane R^2
+  to a unique real number z.
+
+  The domain is the set D.
+  The range of f is the set of all real numbers z that has at least one ordered pair (x, y) in D such that f(x, y) = z.
+
+  Domain              Range
+  [ (x, y) ]  --f-->  --z--
+  For a function of two variables, its domain consists of ordered pairs (x, y).
+
+
+--------------------------------------------------
+4.2 Limits and Continuity
+
+Objectives
+> 
+
+--------------------------------------------------
+4.3 Partial Derivatives
+
+Objectives
+> 
+
+--------------------------------------------------
+4.4 Tangent Planes and Linear Approximations
+
+Objectives
+> 
+
+--------------------------------------------------
+4.5 The Chain Rule
+
+Objectives
+> 
+
+--------------------------------------------------
+4.6 Directional Derivatives and the Gradient
+
+Objectives
+> 
+
+--------------------------------------------------
+4.7 Maxima/Minima Problems
+
+Objectives
+> 
+
+--------------------------------------------------
+4.8 Lagrange Multipliers
+
+Objectives
+> 
