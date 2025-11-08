@@ -20,7 +20,9 @@ Objectives
 5.2 Infinite Series
 
 Objectives
-> 
+> Explain the meaning of the sum of an infinite series.
+> Calculate the sum of a geometric series.
+> Evaluate a telescoping series.
 
 --------------------------------------------------
 5.3 The Divergence and Integral Tests

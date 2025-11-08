@@ -1,13 +1,14 @@
 import "katex/dist/katex.min.css";
 
-import { IntegralDefinition } from './subjects/calculus-1/os-integration';
+import { DefinitionDefiniteIntegral } from './subjects/calculus-1/os-integration';
+import { DefinitionInfiniteSeries } from "./subjects/calculus-2/os-sequences-series";
 import Graph from './Graph';
 import './App.css';
 
 function App() {
   return (
     <>
-      <IntegralDefinition />
+      <DefinitionDefiniteIntegral />
       <Graph
         width={500}
         height={300}
@@ -18,6 +19,7 @@ function App() {
         yMin={-0.1}
         yMax={1.1}
       />
+      <DefinitionInfiniteSeries />
     </>
   )
 }

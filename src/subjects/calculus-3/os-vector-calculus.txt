@@ -1,0 +1,93 @@
+Chapter 6 Vector Calculus
+
+Chapter Outline
+6.1 Vector Fields
+6.2 Line Integrals
+6.3 Conservative Vector Fields
+6.4 Green's Theorem
+6.5 Divergence and Curl
+6.6 Surface Integrals
+6.7 Stokes' Theorem
+6.8 The Divergence Theorem
+
+--------------------------------------------------
+6.1 Vector Fields
+
+Objectives
+> Recognize a vector field in a plane or in space.
+> Sketch a vector field from a given equation.
+> Identify a conservative field and its associated potential function.
+
+--------------------------------------------------
+6.2 Line Integrals
+
+Objectives
+> Calculate a scalar line integral along a curve.
+> Calculate a vector line integral along an oriented curve in space.
+> Use a line integral to compute the work done in moving an object along a curve in a vector field.
+> Describe the flux and circulation of a vector field.
+
+--------------------------------------------------
+6.3 Conservative Vector Fields
+
+Objectives
+> Describe simple and closed curves; define connected and simply connected regions.
+> Explain how to find a potential function for a conservative vector field.
+> Use the Fundamental Theorem for Line Integrals to evaluate a line integral in a vector field.
+> Explain how to test a vector field to determine whether it is conservative.
+
+--------------------------------------------------
+6.4 Green's Theorem
+
+Objectives
+> Apply the circulation form of Green's theorem.
+> Apply the flux form of Green's theorem.
+> Calculate circulation and flux on more general regions.
+
+--------------------------------------------------
+6.5 Divergence and Curl
+
+Objectives
+> Determine divergence from the formula for a given vector field.
+> Determine curl from the formula for a given vector field.
+> Use the properties of curl and divergence to determine whether a vector field is conservative.
+
+--------------------------------------------------
+6.6 Surface Integrals
+
+Objectives
+> Find the parametric representations of a cylinder, a cone, and a sphere.
+> Describe the surface integral of a scalar-valued function over a parametric surface.
+> Use a surface integral to calculate the area of a given surface.
+> Explain the meaning of an oriented surface, giving an example.
+> Describe the surface integral over a vector field.
+> Use surface integrals to solve applied problems.
+
+--------------------------------------------------
+6.7 Stokes' Theorem
+
+Objectives
+> Explain the meaning of Stokes' theorem.
+> Use Stokes' theorem to evaluate a line integral.
+> Use Stokes' theorem to calculate a surface integral.
+> Use Stokes' theorem to calculate a curl.
+
+--------------------------------------------------
+6.8 The Divergence Theorem
+
+Objectives
+> Explain the meaning of the divergence theorem.
+> Use the divergence theorem to calculate the flux of a vector field.
+> Apply the divergence theorem to an electrostatic field.
+
+Overview of Theorems
+  Before getting into the divergence theorem, we look at the FTC versions:
+
+  1 FTC
+    int_a_to_b f'(x) dx = f(b) - f(a)
+
+  2 FT for Line Integrals
+    int_C grad f dr = f(P_1) - f(P_0)
+
+  3 Green's theorem, circulation form
+  

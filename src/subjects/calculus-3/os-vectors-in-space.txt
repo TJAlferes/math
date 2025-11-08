@@ -1,0 +1,100 @@
+Chapter 2 Vectors In Space
+
+Chapter Outline
+2.1 Vectors in the Plane
+2.2 Vectors in Three Dimensions
+2.3 The Dot Product
+2.4 The Cross Product
+2.5 Equations of Lines and Planes in Space
+2.6 Quadric Surfaces
+2.7 Cylindrical and Spherical Coordinates
+
+--------------------------------------------------
+2.1 Vectors in the Plane
+
+Objectives
+> Describe a plane vector, using correct notation.
+> Perform basic vector operations (scalar multiplication, addition, subtraction).
+> Express a vector in component form.
+> Explain the formula for the magnitude of a vector.
+> Express a vector in terms of unit vectors.
+> Give two examples of vector quantities.
+
+--------------------------------------------------
+2.2 Vectors in Three Dimensions
+
+Objectives
+> Describe 3D space mathematically.
+> Locate points in space using coordinates.
+> Write the distance formula in 3D.
+> Write the equations for simple planes and simple spheres.
+> Perform vector operations in R^3.
+
+DEFINITION: 3D Rectangular Coordinate System
+  The 3D rectangular coordinate system consists of three perpendicular axes
+  (x-axis, y-axis, z-axis) and an origin at the point of intersection (0) of the axes.
+  The 3D system is denoted R^3 because each axis is a line representing all real numbers.
+
+THEOREM: Distance Between Two Points in Space
+  The distance d between points (x_1, y_1, z_1) and (x_2, y_2, z_2) is
+  d = √( (x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2 )
+
+  PROOF:
+  (x, y, z) = (x, y) when z = 0.
+
+  We know the distance d_1 between points (x_1, y_1) and (x_2, y_2) is
+  d_1 = √( (x_2 - x_1)^2 + (y_2 - y_1)^2 )
+
+  And we know the distance between any nonzero z_2 and z_1 is |z_2 - z_1|.
+
+  Therefore, still using the Pythagorean Theorem,
+  the distance d between points (x_1, y_1, z_1) and (x_2, y_2, z_2) is
+
+  d^2 = ( √( (x_2 - x_1)^2 + (y_2 - y_1)^2 ) )^2 + |z_2 - z_1|^2
+      = (x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2
+
+  Then
+  d = √( (x_2 - x_1)^2 + (y_2 - y_1)^2 + (z_2 - z_1)^2 ) QED.
+
+Rule: Equations of Planes Parallel to Coordinate Planes
+  1 Plane in space parallel to xy-plane and containing point (a, b, c): z = c.
+  2 Plane in space parallel to xz-plane and containing point (a, b, c): y = b.
+  3 Plane in space parallel to yz-plane and containing point (a, b, c): x = a.
+
+Rule: Equation of a Sphere
+  The sphere with center (a, b, c) and radius r is:
+  (x - a)^2 + (y - b)^2 + (z - c)^2 = r^2
+
+  Note: this is the standard equation of a sphere.
+
+
+
+--------------------------------------------------
+2.3 The Dot Product
+
+Objectives
+> 
+
+--------------------------------------------------
+2.4 The Cross Product
+
+Objectives
+> 
+
+--------------------------------------------------
+2.5 Equations of Lines and Planes in Space
+
+Objectives
+> 
+
+--------------------------------------------------
+2.6 Quadric Surfaces
+
+Objectives
+> 
+
+--------------------------------------------------
+2.7 Cylindrical and Spherical Coordinates
+
+Objectives
+> 
